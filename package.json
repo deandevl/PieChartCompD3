@@ -1,0 +1,19 @@
+{
+  "name": "piechartcompd3",
+  "version": "1.0.0",
+  "description": "A Vue.js (>= 2.5) component that uses the d3 chart library for building pie/donut charts",
+  "main": "PieChartCompD3.vue",
+  "repository": "git+https://github.com/deandevl/PieChartCompD3.git",
+  "author": "'Rick <deanr3@bardstown.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "vue": "^2.5.9",
+    "tablecomp": "git+https://github.com/deandevl/TableComp.git#develop",
+    "d3scalemodule": "git+https://github.com/deandevl/d3ScaleModule.git",
+    "d3-shape": "^1.3.3",
+    "d3-selection": "^1.4.0",
+    "d3-format": "^1.3.2",
+    "d3-array": "^2.0.3"
+  }
+}
