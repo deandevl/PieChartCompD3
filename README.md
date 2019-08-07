@@ -13,7 +13,7 @@
 - adjustable margins around the chart
 - CSS variables are provided for easily controlling chart colors, backgrounds and font sizes
 
-Three [webpack](https://webpack.js.org/concepts/) npm scripts are included for building  development, production, or hot recompile/execute of the demo.   `build-dev` and `build-prod` scripts produce  a `dist` folder containing the `index.html`.  The size of the `main.js` bundle using `build-prod` is 123 KiB along with calling a CDN for incorporating the Vue framework.
+ **pie-chart-comp-d3** can be installed via with the included `package.json` file for a local installation via the [npm install](https://docs.npmjs.com/cli/install.html "npm install") command.  **pie-chart-comp-d3** depends on some d3 modules and the [vue.js](https://vuejs.org/ "Vue.js") framework.  A demo folder is provided that used [Parcel](https://parceljs.org/) together with its associated `package.json` file to bundle together  **pie-chart-comp-d3**  along with its [vue.js](https://vuejs.org/ "Vue.js") /d3 dependencies for a simple application.  Further details are provided below for running the demo.
 
 ## Props
 
@@ -81,6 +81,8 @@ The demonstration shows how the event can be incorporated.
 ## Demonstration
 
 One demonstration of **pie-chart-comp-d3**  is provided in the folder named `demo`.  It can be viewed by hosting the `index.html`file in the `dist` folder. 
+
+As a suggestion, install [http-server](https://www.npmjs.com/package/http-server "http-server") locally/globally via [npm](https://www.npmjs.com/ "npm") then enter the command `http-server`in the **pie-chart-comp-d3** `dist` directory.  From a browser enter the url: `localhost:8080/` to view the demo.
 
 The demo folder contains a `package.json` file that can be used to setup dependencies for this demo and as a template for other applications using **pie-chart-comp-d3**.
 
